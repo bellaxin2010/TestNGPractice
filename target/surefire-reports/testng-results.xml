@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="163" started-at="2019-10-16T08:17:30Z" finished-at="2019-10-16T08:17:30Z">
+    <groups>
+      <group name="fast">
+        <method signature="TestExample.aFastTest()[pri:2, instance:demo.TestExample@33cb5951]" name="aFastTest" class="demo.TestExample"/>
+      </group> <!-- fast -->
+    </groups>
+    <test name="test" duration-ms="163" started-at="2019-10-16T08:17:30Z" finished-at="2019-10-16T08:17:30Z">
+      <class name="demo.TestExample">
+        <test-method status="PASS" signature="testSuite()[pri:0, instance:demo.TestExample@33cb5951]" name="testSuite" is-config="true" duration-ms="15" started-at="2019-10-16T08:17:30Z" finished-at="2019-10-16T08:17:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:demo.TestExample@33cb5951]" name="setUp" is-config="true" duration-ms="1" started-at="2019-10-16T08:17:30Z" finished-at="2019-10-16T08:17:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="aFastTest()[pri:2, instance:demo.TestExample@33cb5951]" name="aFastTest" duration-ms="3" started-at="2019-10-16T08:17:30Z" finished-at="2019-10-16T08:17:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aFastTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:demo.TestExample@33cb5951]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-10-16T08:17:30Z" finished-at="2019-10-16T08:17:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- demo.TestExample -->
+    </test> <!-- test -->
+  </suite> <!-- Default suite -->
+</testng-results>

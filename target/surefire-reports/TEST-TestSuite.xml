@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.868" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="F:\AllIdeaProject\comtestNg\target\test-classes;F:\AllIdeaProject\comtestNg\target\classes;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\org\testng\testng\6.14.3\testng-6.14.3.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\com\beust\jcommander\1.72\jcommander-1.72.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\io\qameta\allure\allure-testng\2.13.0\allure-testng-2.13.0.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\io\qameta\allure\allure-java-commons\2.13.0\allure-java-commons-2.13.0.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\io\qameta\allure\allure-model\2.13.0\allure-model-2.13.0.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\org\aspectj\aspectjweaver\1.8.10\aspectjweaver-1.8.10.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
+    <property name="org.uncommons.reportng.escape-output" value="false"/>
+    <property name="java.vm.vendor" value=""/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Users\bella.sun\AppData\Local\Programs\AdoptOpenJDK\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\bella.sun\AppData\Local\Temp\surefire8597683908060850460\surefirebooter6751906429171932252.jar C:\Users\bella.sun\AppData\Local\Temp\surefire8597683908060850460 2019-10-16T16-17-25_937-jvmRun1 surefire2902748056640899512tmp surefire_04056071135961432462tmp"/>
+    <property name="surefire.test.class.path" value="F:\AllIdeaProject\comtestNg\target\test-classes;F:\AllIdeaProject\comtestNg\target\classes;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\org\testng\testng\6.14.3\testng-6.14.3.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\com\beust\jcommander\1.72\jcommander-1.72.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\io\qameta\allure\allure-testng\2.13.0\allure-testng-2.13.0.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\io\qameta\allure\allure-java-commons\2.13.0\allure-java-commons-2.13.0.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\io\qameta\allure\allure-model\2.13.0\allure-model-2.13.0.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\org\aspectj\aspectjweaver\1.8.10\aspectjweaver-1.8.10.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\bella.sun"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Users\bella.sun\AppData\Local\Programs\AdoptOpenJDK\jre"/>
+    <property name="basedir" value="F:\AllIdeaProject\comtestNg"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\bella.sun\AppData\Local\Temp\surefire8597683908060850460\surefirebooter6751906429171932252.jar"/>
+    <property name="sun.boot.class.path" value="C:\Users\bella.sun\AppData\Local\Programs\AdoptOpenJDK\jre\lib\resources.jar;C:\Users\bella.sun\AppData\Local\Programs\AdoptOpenJDK\jre\lib\rt.jar;C:\Users\bella.sun\AppData\Local\Programs\AdoptOpenJDK\jre\lib\sunrsasign.jar;C:\Users\bella.sun\AppData\Local\Programs\AdoptOpenJDK\jre\lib\jsse.jar;C:\Users\bella.sun\AppData\Local\Programs\AdoptOpenJDK\jre\lib\jce.jar;C:\Users\bella.sun\AppData\Local\Programs\AdoptOpenJDK\jre\lib\charsets.jar;C:\Users\bella.sun\AppData\Local\Programs\AdoptOpenJDK\jre\lib\jfr.jar;C:\Users\bella.sun\AppData\Local\Programs\AdoptOpenJDK\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_222-b10"/>
+    <property name="user.name" value="bella.sun"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Users\bella.sun\AppData\Local\Programs\AdoptOpenJDK\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\bella.sun\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_222"/>
+    <property name="user.dir" value="F:\AllIdeaProject\comtestNg"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\bella.sun\AppData\Local\Programs\AdoptOpenJDK\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;F:\Android\Sdk\platform-tools;F:\Android\Sdk\tools;C:\Python27\Scripts;F:\ideaMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\bin;F:\apache-ant-1.9.14\bin;C:\Users\bella.sun\scoop\shims;C:\Users\bella.sun\AppData\Local\Programs\AdoptOpenJDK\bin;C:\Users\bella.sun\AppData\Local\Microsoft\WindowsApps;C:\Users\bella.sun\AppData\Roaming\npm;F:\Microsoft VS Code\bin;C:\Python27;C:\Python27\Scripts;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.version" value="25.222-b10"/>
+    <property name="java.ext.dirs" value="C:\Users\bella.sun\AppData\Local\Programs\AdoptOpenJDK\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="aFastTest" classname="demo.TestExample" time="0.005"/>
+</testsuite>
