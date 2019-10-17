@@ -19,21 +19,21 @@ public class TestExample3 {
         System.out.println("testsuite");
     }
 
-    @Test(groups = {"fast"})
+    @Test(groups = {"API TEST"})
     public void aFastTest() {
         System.out.println("Fast test...");
     }
 
-    @Test(groups = {"slow"})
+    @Test(groups = {"API TEST"})
     public void aSlowTest() {
         System.out.println("slow test ./..");
     }
 
-    @Parameters({"name"})
+    @Parameters({"value"})
     @Test
-    public void testSingleString(String name) {
-        System.out.println("testString " + name);
-        assert "bell".equals(name);
+    public void testSingleString(String value) {
+        System.out.println("testString " + value);
+        assert "bell".equals(value);
     }
 
 

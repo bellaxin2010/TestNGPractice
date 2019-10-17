@@ -30,8 +30,8 @@ public class TestAssert {
     public void testSoftAssert(){
         System.out.println("Test start");
         SoftAssert assertion=new SoftAssert();
-        assertion.assertAll();
         assertion.assertEquals(12,13,"soft test not equal");
+        assertion.assertAll();
     }
 
 }

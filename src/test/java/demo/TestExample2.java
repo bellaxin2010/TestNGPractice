@@ -23,12 +23,12 @@ public class TestExample2 {
     }
 
 
-    @Test
+    @Test(groups={"API TEST"})
     public void test2(){
         System.out.println(" test 2 ");
     }
 
-    @Test
+    @Test(groups = {"Func Test"})
     public void test3(){
         System.out.println("test 3 ");
     }

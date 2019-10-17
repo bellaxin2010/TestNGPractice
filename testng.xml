@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="F:/AllIdeaProject/comtestNg/src/test/java/demo"><classes><class name="demo.TestAssert"><methods><include name="TestAssert"/><include name="testSoftAssert"/></methods></class><class name="demo.TestFunction"><methods><include name="listenerExample"/></methods></class><class name="demo.TestTimeout"><methods><include name="loginoutTest"/><include name="loginTest"/></methods></class></classes></test></suite>

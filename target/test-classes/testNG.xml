@@ -2,9 +2,39 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Default suite">
-    <test name="test">
+    
+    <listeners>
+        <listener class-name="demo.TestFunction"/>
+    </listeners>
+    
+    <test name="Test Function">
         <classes>
+            <class name="demo.TestFunction"/>
+        </classes>
+    </test>
+    
+    
+    <test name="test">
+        <groups>
+            <define name="all">
+                <include name="API.*"/>
+                <include name="server"/>
+                <include name="app"/>
+                
+            </define>
+
+            <run>
+                <include name="all"/>  <!--  用define来实现组嵌套管理执行用例-->
+            </run>
+        </groups>
+
+
+        <classes>
+
             <class name="demo.TestExample"/>
+            <class name="demo.TestExample2"/>
+            <class name="demo.TestAssert"/>
+            <class name="demo.TestFunction"/>
         </classes>
     </test>
 </suite>

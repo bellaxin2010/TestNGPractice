@@ -1,49 +1,35 @@
 package demo;
 
+import org.testng.Assert;
 import org.testng.annotations.*;
 
 public class TestExample {
 
-
-    @BeforeClass
-    public void setUp() {
-        System.out.println("setup ...");
+    @Test(groups = {"server"})
+    public void restartServer(){
+        System.out.println("restart ...");
+        Assert.assertEquals(1,3,"not equal");
     }
 
-    @AfterClass
-    public void tearDown(){
-        System.out.println(" after  Class");
+    @Test(groups = {"app"})
+    public void startApp(){
+        System.out.println("start app ...");
     }
 
-    @BeforeSuite
-    public void testSuite() {
-
-        System.out.println("testsuite");
+    @Test(dependsOnGroups = {"app"})
+    public void serverIsDown(){
+        System.out.println("server is down");
     }
 
-    @Test(groups = {"fast"},priority =2)
-    public void aFastTest() {
-
-        System.out.println("Fast test...");
-    }
-
-    @Test(groups = {"slow"},enabled = false)
-    public void aSlowTest() {
-        System.out.println("slow test ./..");
+    @Test(dependsOnGroups = {"app"})
+    public void serverIsUp(){
+        System.out.println("server is up");
     }
 
 
-    @Test(enabled = false)
-    @Parameters({"Browser","Server"})
-    public void testSingleString(String browser, String server) {
-        System.out.println("testString " + browser+" server is "+ server);
-    }
-
-
-    @Test(expectedExceptions=ArithmeticException.class,enabled = false)
-    public void divisionException(){
-        int i =1 / 2;
-        System.out.println(" result should send error  "+i);
+    @Test(dependsOnGroups = {"server"},alwaysRun = true)
+    public void startServer(){
+        System.out.println("start");
     }
 }
 
